@@ -68,9 +68,10 @@ MAP_STATE_ICONS = {
 
 FAN_MODE_I_TO_E = {
     "AUTO": "auto",
-    "1": "low",
-    "2": "medium",
-    "3": "high",
+    "1": "quiet",
+    "2": "low",
+    "3": "medium",
+    "4": "high"
 }
 FAN_MODE_E_TO_I = {v: k for k, v in FAN_MODE_I_TO_E.items()}
 
